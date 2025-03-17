@@ -21,17 +21,23 @@ M.setup({
     highlight_git = true,
     indent_markers = { enable = true },
     icons = {
-      glyphs = {
-        default = "󰈚",
-        folder = {
-          default = "",
-          empty = "",
-          empty_open = "",
-          open = "",
-          symlink = "",
-        },
-        git = { unmerged = "" },
+      show = {
+        file = false,
+        folder = false,
+        folder_arrow = false,
+        git = false,
       },
+    --   glyphs = {
+    --     default = "󰈚",
+    --     folder = {
+    --       default = "",
+    --       empty = "",
+    --       empty_open = "",
+    --       open = "",
+    --       symlink = "",
+    --     },
+    --     git = { unmerged = "" },
+    --   },
     },
   },
 })
